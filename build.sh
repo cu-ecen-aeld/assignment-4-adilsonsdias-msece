@@ -2,6 +2,8 @@
 #Script to build buildroot configuration
 #Author: Siddhant Jajoo
 
+export FORCE_UNSAFE_CONFIGURE=1
+
 source shared.sh
 
 EXTERNAL_REL_BUILDROOT=../base_external
